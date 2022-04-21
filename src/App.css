@@ -32,6 +32,10 @@
 .commentList .title {
   font-size: 28px;
 }
+.commentList .empty {
+  font-size: 20px;
+  padding: 20px 0;
+}
 .commentList .content li {
   border: 1px solid #ccc;
   margin: 20px 0;
