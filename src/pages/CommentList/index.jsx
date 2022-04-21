@@ -1,4 +1,6 @@
 import React from "react";
+import Comment from "./Comment";
+
 export default class CommentList extends React.Component {
   render() {
     return (
@@ -7,7 +9,8 @@ export default class CommentList extends React.Component {
         <div className="col-md-8">
           <p className="title">评论回复:</p>
           <ul className="content">
-            <li>
+            <Comment />
+            {/* <li>
               <div>丁元英说:</div>
               <p>hello,芮小丹</p>
               <button className="btn">删除</button>
@@ -21,7 +24,7 @@ export default class CommentList extends React.Component {
               <div>丁元英说:</div>
               <p>hello,芮小丹</p>
               <button className="btn">删除</button>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
